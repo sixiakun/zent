@@ -1,8 +1,8 @@
+import { CSSProperties } from 'react';
 import capitalize from 'lodash-es/capitalize';
 import isFunction from 'lodash-es/isFunction';
 
 import Popover from '../popover';
-import { CSSProperties } from 'react';
 
 const { Position } = Popover;
 

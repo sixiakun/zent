@@ -1,6 +1,6 @@
 {
   "name": "zent",
-  "version": "7.0.0-next.10",
+  "version": "7.0.0-next.11",
   "description": "一套前端设计语言和基于React的实现",
   "bugs": "https://github.com/youzan/zent/issues",
   "repository": {
@@ -19,7 +19,6 @@
     "theme": "./scripts/build-theme.sh",
     "new-component": "node ./scripts/new-component.js"
   },
-  "typings": "typings/index.d.ts",
   "author": "Youzan FE",
   "license": "MIT",
   "files": [
@@ -45,6 +44,7 @@
     "@types/react-transition-group": "^2.0.16",
     "@types/sortablejs": "^1.7.2",
     "@types/tinycolor2": "^1.4.1",
+    "@types/warning": "^3.0.0",
     "autosize": "^4.0.0",
     "big.js": "^5.2.2",
     "classnames": "^2.2.6",
@@ -62,6 +62,7 @@
     "tinycolor2": "^1.4.1",
     "tslib": "^1.9.3",
     "utility-types": "^3.4.1",
+    "warning": "^4.0.3",
     "zenticons": "1.4.1"
   },
   "devDependencies": {

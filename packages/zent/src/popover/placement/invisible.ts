@@ -1,3 +1,4 @@
+import { CSSProperties } from 'react';
 import createPlacement from './create';
 import { PositionFunctionImpl } from '../position-function';
 
@@ -9,7 +10,7 @@ const locate: PositionFunctionImpl = () => {
   const y = -100000;
 
   return {
-    getCSSStyle() {
+    getCSSStyle(): CSSProperties {
       return {
         position: 'fixed',
         left: `${x}px`,

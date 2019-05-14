@@ -1,5 +1,7 @@
+import { CSSProperties } from 'react';
+
 export interface IPopoverPosition {
-  getCSSStyle: () => React.CSSProperties;
+  getCSSStyle: () => CSSProperties;
   name: string;
 }
 
